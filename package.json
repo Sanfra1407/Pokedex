@@ -1,0 +1,20 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "author": {
+    "name": "Giuseppe Sanfrancesco",
+    "email": "info@giuseppesanfrancesco.it",
+    "url": "https://www.giuseppesanfrancesco.it"
+  },
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "webpack --config ./webpack/webpack.dev.js --watch=true --progress=true",
+    "build": "webpack --config ./webpack/webpack.prod.js --progress=true",
+    "serve": "./node_modules/.bin/http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}

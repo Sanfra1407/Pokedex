@@ -1,0 +1,18 @@
+body {
+  padding-top: 20px;
+}
+
+.pokedex__divider > hr {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* Fix an antd UI bug */
+.ant-pagination-item-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
