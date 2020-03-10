@@ -20,7 +20,7 @@ The main goal of the application is to provide an UI for searching Pokémons whi
 
 ### Structure
 
-The main work has been done in the `client` directory.
+The main work has been done in the `client` directory.  
 [webpack](https://webpack.js.org/) is the bundler which creates two files inside the `public/dist` folder:
 
 - pokedex.css
